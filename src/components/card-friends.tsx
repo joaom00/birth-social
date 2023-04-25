@@ -13,12 +13,13 @@ export const CardFriends = ({
   description,
   name,
   birthdate,
+  nickname,
 }: UserCard) => {
   const [textOpen, setTextOpen] = React.useState(false)
 
   return (
     <Link
-      href={`/u/${name}`}
+      href={`/u/${nickname}`}
       className="w-full flex gap-4 flex-col py-4 px-8 rounded-lg bg-zinc-900"
     >
       <div className="flex gap-6 items-center justify-between">

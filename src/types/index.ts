@@ -3,4 +3,5 @@ export type UserCard = {
   image: string
   description: string
   birthdate: string
+  nickname: string
 }

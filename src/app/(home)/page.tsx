@@ -17,24 +17,28 @@ const HomePage = () => {
             image="https://github.com/revogabe.png"
             birthdate="12/12"
             description="comer banana"
+            nickname="revogabe"
           />
           <CardFriends
             name="João Pedro"
             image="https://github.com/joaom00.png"
             birthdate="12/12"
             description="brincar com briquendos 🔥"
+            nickname="joaom00"
           />
           <CardFriends
             name="Luiz Felipe"
             image="https://github.com/meluiz.png"
             birthdate="12/12"
             description="xingar pessoas"
+            nickname="meluiz"
           />
           <CardFriends
             name="Caixeta"
             image="https://github.com/caixetadev.png"
             birthdate="12/12"
             description="amar pessoas"
+            nickname="caixetadev"
           />
         </div>
         <div className="w-16 h-16 bg-gray-500"></div>

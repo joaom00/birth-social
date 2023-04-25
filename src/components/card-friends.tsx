@@ -6,6 +6,7 @@ import { GiftIcon, XCircleIcon } from '@heroicons/react/24/solid'
 import { motion } from 'framer-motion'
 
 import type { UserCard } from '@/types'
+import Link from 'next/link'
 
 export const CardFriends = ({
   image,
@@ -16,7 +17,10 @@ export const CardFriends = ({
   const [textOpen, setTextOpen] = React.useState(false)
 
   return (
-    <div className="w-full flex gap-4 flex-col py-4 px-8 rounded-lg bg-zinc-900">
+    <Link
+      href={`/u/${name}`}
+      className="w-full flex gap-4 flex-col py-4 px-8 rounded-lg bg-zinc-900"
+    >
       <div className="flex gap-6 items-center justify-between">
         <Image
           src={image}
@@ -64,6 +68,6 @@ export const CardFriends = ({
           </motion.div>
         )}
       </div>
-    </div>
+    </Link>
   )
 }

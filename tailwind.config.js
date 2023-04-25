@@ -14,5 +14,5 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [require('./lib/tailwindcss/plugins/alignment')],
 }
